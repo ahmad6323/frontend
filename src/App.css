@@ -1,10 +1,137 @@
-.App {
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: #61dafb;
+}
+.footer{
+  position: relative;
+  padding: 10px 20px;
+  bottom: 0;
   text-align: center;
+  width: 100%;
+  background-color: #61dafb;
+}
+.signup{
+  margin-left: 30%;
+}
+.inputBox{
+  
+  display: block;
+  padding: 12px;
+  width: 300px;
+  border: 1px solid skyblue;
+  margin: 25px;
+}
+.btn{
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  padding: 12px;
+  width: 300px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+}
+.productin{
+  display: block;
+  padding: 12px;
+  width: 300px;
+  border: 1px solid skyblue;
+  margin: 25px;
+}
+.product{
+  margin-left: 30%;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.heading{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.invalid{
+  color: red;
+  display: block;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+background-color: orange;
+text-decoration: none;
+}
+.button1:hover {
+ 
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+background-color: red;
+}
+
+.button2:hover {
+ 
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
